@@ -1,6 +1,6 @@
 ---
 postFormat: 'standard'
-title: '4 types of research methods all designers should know'
+title: 'Servicio de creación de sitios web'
 featureImg: '/images/posts/thumbnail-01.webp'
 slidePost: true
 date: 'Feb 30 2022'

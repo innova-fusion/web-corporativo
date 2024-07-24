@@ -1,6 +1,6 @@
 ---
 postFormat: 'standard'
-title: 'Servicio de creación de sitios web y desarrollo de software'
+title: 'Creación de sitios web y desarrollo de software'
 featureImg: '/images/posts/thumbnail-01.webp'
 slidePost: true
 date: 'Feb 30 2022'

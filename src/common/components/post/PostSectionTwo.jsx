@@ -12,19 +12,15 @@ const filters = [
  
   {
     id: 1,
-    cate: "Gadget",
+    cate: "Páginas web",
   },
   {
     id: 2,
-    cate: "Design",
+    cate: "Venta en línea",
   },
   {
     id: 3,
-    cate: "Marketing",
-  },
-  {
-    id: 4,
-    cate: "Technology",
+    cate: "Aplicaciones",
   },
 ];
 const defaultActiveCat = slugify(filters[0].cate);
@@ -123,7 +119,7 @@ const PostSectionTwo = ({ postData, adBanner, headingTitle }) => {
             </div>
           </div> : ""}
          
-          <SectionTitleOne title={ headingTitle || "Innovation & Tech"} />
+          <SectionTitleOne title={ headingTitle || "Innovación y tecnología"} />
           <div className="row">
             <div className="col-lg-12">
               <Tab.Container id="axilTab" defaultActiveKey={activeNav}>

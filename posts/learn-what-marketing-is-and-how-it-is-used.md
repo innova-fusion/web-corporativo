@@ -1,6 +1,6 @@
 ---
 postFormat: 'standard'
-title: 'How to craft great page titles for SEO'
+title: 'Desarrollo de aplicaciiones web'
 featureImg: '/images/posts/post-seo-sm-02.webp'
 date: 'Jun 17 2022'
 cate: 'SEO'

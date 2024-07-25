@@ -22,17 +22,17 @@ const HomeDefault = ({allPosts}) => {
     <>
       <HeadTitle pageTitle="Home Default" />
       <HeaderOne postData={allPosts}/>
-      {/*<SliderOne postData={allPosts} />*/}
-      {/*<PostSectionOne postData={allPosts}/>*/}
+      <SliderOne postData={allPosts} />
+      <PostSectionOne postData={allPosts}/>
       <PostSectionTwo postData={allPosts} adBanner={true} />
-     {/* <CategoryList cateData={allPosts}/>
-     <PostSectionSix postData={allPosts} />
+      <CategoryList cateData={allPosts}/>
+      <PostSectionSix postData={allPosts} />
       <SocialOne />
       <PostSectionFive postData={allPosts}/>
       <PostSectionFour postData={allPosts} adBanner={true} />
       <PostSectionThree postData={videoPost} heading="Featured Video"/>
       <InstagramOne parentClass="bg-color-grey"/>
-      <FooterOne />*/}
+      <FooterOne />
       
     </>
    );

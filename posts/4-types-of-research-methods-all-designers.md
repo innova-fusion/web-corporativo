@@ -5,7 +5,7 @@ featureImg: '/images/posts/thumbnail-01.webp'
 slidePost: true
 date: 'Feb 30 2022'
 pCate: 'Tech Blog'
-cate: 'Design'
+cate: 'Venta en línea'
 cate_img: '/images/posts/category/design.webp'
 post_views: '200K Views'
 read_time: '3 min read'

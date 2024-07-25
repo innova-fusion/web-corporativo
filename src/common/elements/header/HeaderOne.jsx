@@ -30,13 +30,14 @@ const HeaderOne = ({pClass, darkLogo, lightLogo, postData}) => {
                             <div className="logo">
                                 <Link href="/">
                                     <a>
-                                        <Image
+                                        <h4>INNOVA FUSION</h4>
+                                        {/*<Image
                                         className="dark-logo"
                                         width={141}
                                         height={37}
                                         src={(colorMode === "Dark" ? lightLogo || "/images/logo/logo-white2.webp" : darkLogo || "/images/logo/logo-black.webp") || "/images/logo/logo-black.webp" }
                                         alt="Blogar logo"
-                                        />
+                                        />*/}
                                     </a>
                                 </Link>
                             </div>
@@ -79,7 +80,7 @@ const HeaderOne = ({pClass, darkLogo, lightLogo, postData}) => {
                                         </div>
                                     </form>
                                 </div>
-                                <ul className="metabar-block">
+                               {/* <ul className="metabar-block">
                                     <li className="icon">
                                         <Link href="#">
                                             <a>
@@ -107,7 +108,7 @@ const HeaderOne = ({pClass, darkLogo, lightLogo, postData}) => {
                                         </Link>
                                     </li>
                                 </ul>
-                                {/* Start Hamburger Menu  */}
+                                 Start Hamburger Menu  */}
                                 <div className="hamburger-menu d-block d-xl-none">
                                     <div className="hamburger-inner">
                                         <div className="icon" onClick={MobileShowHandler}>

@@ -26,6 +26,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     
+    - name: Set correct permissions for project files
+      run: |
+        sudo chown -R $USER:$USER /var/www/web-corporativa
+        sudo chmod -R 755 /var/www/web-corporativa
+    
     - name: Install node_modules
       run: npm i
 
@@ -50,9 +55,4 @@ jobs:
 
     - name: Restart nginx 
       run: sudo service nginx restart
-
-    - name: Set correct permissions for project files
-      run: |
-        sudo chown -R $USER:$USER /var/www/web-corporativa
-        sudo chmod -R 755 /var/www/web-corporativa
 
